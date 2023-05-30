@@ -1,0 +1,34 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #202020;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    background-color: #fff;
+}
+.content{
+    background-color: #202020;
+    color: #fff;
+}
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+.content h1 {
+    padding: 2rem;
+    margin: 0;
+}
+
